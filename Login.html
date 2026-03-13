@@ -5,44 +5,58 @@
         <link rel= "stylesheet" href="style.css">
     </head>
     <body style="background-color: yellow;">
+      <header>
       <nav>
             <a class="nav-link" href="index.html">Home</a>
             <a class="nav-link" href="Video.html">Videos</a>
             <a class="nav-link" href="Login.html">Login</a>
-        </nav><br>
+        </nav>
+        </header><br>
+        <section>
         <form>
-           <b class="bold2">Your First Name:-</b> <input class="input1" type="text" placeholder="Enter 1st Name"><br><br>
-           <b class="bold2">Enter Your last Name:-</b><input class="input1" type="text" placeholder="Enter Last Name"><br><br>
-           <b class="bold2">Enter Address:-</b><br><textarea name="Address" id="feedback" placeholder="Enter Your Address"></textarea><br><br>
-           <b class="bold2">Choose Your Class</b><br>
+           <b class="Personal_info">Your First Name:-</b> <input type="text" placeholder="Enter 1st Name"><br><br>
+           <b class="Personal_info">Enter Your last Name:-</b><input type="text" placeholder="Enter Last Name"><br><br>
+           <b class="Personal_info">Enter Address:-</b><br><textarea name="Address" id="feedback" placeholder="Enter Your Address"></textarea><br><br>
+          
+           <!--RadioButton-->
+           <b class="Personal_info">Choose Your Class</b><br>
           <label for="id1">
-            <b class="bold3">Class XI</b><input type="radio" value="class XI" name="class" id="id1">
+            <b class="Personal_info1">Class XI</b><input type="radio" value="class XI" name="class" id="id1">
           </label><br>
           <label for="id2">
-            <b class="bold3">Class XII</b><input type="radio" value="class XII" name="class" id="id2">
+            <b class="Personal_info1">Class XII</b><input type="radio" value="class XII" name="class" id="id2">
           </label><br><br>
-           <b class="bold2">Coding Language</b><br>
+         
+          <!--Checkbox-->
+           <b class="Personal_info">Coding Language</b><br>
           <label for="id1">
-            <b class="bold3">JAVA</b><input type="checkbox" value="JAVA" name="class" id="id1">
+            <b class="Personal_info1">JAVA</b><input type="checkbox" value="JAVA" name="class" id="id1">
           </label><br>
           <label for="id2">
-            <b class="bold3">C++</b><input type="checkbox" value="C++" name="class" id="id2">
+            <b class="Personal_info1">C++</b><input type="checkbox" value="C++" name="class" id="id2">
           </label><br>
           <label for="id3">
-            <b class="bold3">Python</b><input type="checkbox" value="Python" name="class" id="id3">
+            <b class="Personal_info1">Python</b><input type="checkbox" value="Python" name="class" id="id3">
           </label><br><br>
-          <b class="bold2">Choose Hobbies</b><select>
+
+          <!--Dropdown-->
+          <b class="Personal_info">Choose Hobbies</b><select>
             <option>Playing</option>
             <option>Singing</option>
             <option>Dancing</option>
           </select><br><br>
+           
+          <!--filedset-->
           <fieldset>
-            <legend><b class="bold2">Personal Info</b></legend>
-            <b class="bold2">Email:</b><input type="text" placeholder="Enter Email"><br>
-            <b class="bold2">Password:</b><input type="password" placeholder="Enter Password"><br>
-            <b class="bold2">Confirm Password:</b><input type="password" placeholder="Confirm Password"><br>
+            <legend><b class="Personal_info">Personal Info</b></legend>
+            <b class="Personal_info1">Email:</b><input type="text" placeholder="Enter Email"><br>
+            <b class="Personal_info1">Password:</b><input type="password" placeholder="Enter Password"><br>
+            <b class="Personal_info1">Confirm Password:</b><input type="password" placeholder="Confirm Password"><br>
           </fieldset><br>
+
+          <!--Button-->
           <button id="button1">Submit</button>
         </form>
+        </section>
     </body>
 </html>
